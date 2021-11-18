@@ -26,7 +26,7 @@ app.get("/user/:id", function (req, res) {
     console.log(username)
     res.json(username)
 })
-app.get('/language/:id', function (req, res) {
+app.get('/accounts/:id', function (req, res) {
   var val = [
   {
     "name": "Burbank Water and Power",
